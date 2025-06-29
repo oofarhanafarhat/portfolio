@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <main className="flex flex-col md:flex-row items-center justify-between bg-gradient-to-br from-gray-900 to-black px-6 md:px-20 py-20">
-      
+
       {/* Text Section */}
       <div className="text-center md:text-left max-w-xl">
         <motion.h1
@@ -16,8 +16,9 @@ const Hero = () => {
           transition={{ duration: 1 }}
           className="text-4xl md:text-5xl font-bold text-white leading-tight"
         >
-          Hi, I'm Farhana Farhat
+          Hi, I&apos;m Farhana Farhat
         </motion.h1>
+
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
