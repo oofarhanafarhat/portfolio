@@ -26,7 +26,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.3 }}
           className="mt-4 text-lg text-gray-300"
         >
-          A passionate Full Stack Developer specialized in Next.js & Tailwind CSS. I craft modern, responsive websites.
+          A passionate Full Stack Developer specialized in Next.js and Tailwind CSS. I craft modern responsive websites.
         </motion.p>
 
         <Link
