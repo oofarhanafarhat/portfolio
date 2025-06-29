@@ -21,11 +21,12 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-fuchsia-300">
             About Me
           </h2>
-          <p className="text-lg text-gray-300 leading-relaxed max-w-xl mx-auto md:mx-0">
-            I'm <span className="font-semibold text-fuchsia-400">Farhana Farhat</span>, a passionate Full Stack Developer specializing in{" "}
-            <span className="font-semibold text-blue-300">Next.js</span> and{" "}
-            <span className="font-semibold text-blue-300">Tailwind CSS</span>. I enjoy building modern, interactive, and responsive web applications that create impact.
-          </p>
+         <p className="text-lg text-gray-300 leading-relaxed max-w-xl mx-auto md:mx-0">
+  I&apos;m <span className="font-semibold text-fuchsia-400">Farhana Farhat</span>, a passionate Full Stack Developer specializing in{" "}
+  <span className="font-semibold text-blue-300">Next.js</span> and{" "}
+  <span className="font-semibold text-blue-300">Tailwind CSS</span>. I enjoy building modern, interactive, and responsive web applications that create impact.
+</p>
+
         </motion.div>
 
         {/* Image */}
