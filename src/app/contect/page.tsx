@@ -31,7 +31,7 @@ const Contact = () => {
         </motion.p>
 
         {/* Contact Info */}
-        <div className="mb-8 flex justify-center gap-6 text-gray-300">
+        <div className="mb-8 md:flex justify-center items-center gap-6 text-gray-300">
           <div className="flex items-center gap-2">
             <FiMail />
             <span>khnkaneez@gmail.com</span><br />
