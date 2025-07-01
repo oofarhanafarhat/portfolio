@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FiMail, FiLinkedin } from "react-icons/fi";
+import { FiMail, FiLinkedin, FiPhone } from "react-icons/fi";
+
 
 const Contact = () => {
   return (
@@ -33,7 +34,8 @@ const Contact = () => {
         <div className="mb-8 flex justify-center gap-6 text-gray-300">
           <div className="flex items-center gap-2">
             <FiMail />
-            <span>khnkaneez@gmail.com</span>
+            <span>khnkaneez@gmail.com</span><br />
+           
           </div>
           <div className="flex items-center gap-2">
             <FiLinkedin />
@@ -45,6 +47,10 @@ const Contact = () => {
               LinkedIn
             </Link>
           </div>
+            <div className="flex items-center gap-2">
+    <FiPhone />
+    <span>+92 300 0812431 ,+92 03700019884</span> {/* <-- Update your number here */}
+  </div>
         </div>
 
         {/* Contact Form */}

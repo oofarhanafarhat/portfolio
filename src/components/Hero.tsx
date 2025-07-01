@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <main className="flex flex-col md:flex-row items-center justify-between bg-gradient-to-br from-gray-900 to-black px-6 md:px-20 py-20">
-
+      
       {/* Text Section */}
       <div className="text-center md:text-left max-w-xl">
         <motion.h1
@@ -19,14 +19,31 @@ const Hero = () => {
           Hi, I&apos;m Farhana Farhat
         </motion.h1>
 
-
         <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: [0, 1, 0] }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            repeatDelay: 1,
+          }}
           className="mt-4 text-lg text-gray-300"
         >
           A passionate Full Stack Developer specialized in Next.js and Tailwind CSS. I craft modern responsive websites.
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: [0, 1, 0] }}
+          transition={{
+            duration: 6,
+            repeat: Infinity,
+            repeatDelay: 1,
+            delay: 3,
+          }}
+          className="mt-4 text-lg text-gray-300"
+        >
+          Currently diving into Generative AI with Python and building automation workflows to strengthen my technical toolkit and create efficient, intelligent solutions.
         </motion.p>
 
         <Link
@@ -37,12 +54,19 @@ const Hero = () => {
         </Link>
       </div>
 
-      {/* Image Section */}
+      {/* Image Section with loop animation */}
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1, delay: 0.5 }}
-        className="mt-10 md:mt-0 rounded-full overflow-hidden w-52 h-52 md:w-64 md:h-64"
+        animate={{
+          scale: [1, 1.05, 1], // zoom in and out
+          rotate: [0, 1, -1, 0], // slight rotate left-right
+        }}
+        transition={{
+          duration: 6,
+          repeat: Infinity,
+          repeatType: "loop",
+          ease: "easeInOut",
+        }}
+        className="mt-10 md:mt-0 rounded-full overflow-hidden w-52 h-52 md:w-64 md:h-64 shadow-lg"
       >
         <Image
           src="/pic.jpg"

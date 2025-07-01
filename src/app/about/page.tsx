@@ -11,7 +11,7 @@ const About = () => {
     >
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center gap-10">
         
-        {/* Text Content */}
+        
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -26,9 +26,9 @@ const About = () => {
             <span className="font-semibold text-blue-300">Next.js</span> and{" "}
             <span className="font-semibold text-blue-300">Tailwind CSS</span>. I enjoy building modern, interactive, and responsive web applications that create impact.
           </p>
+          <p className="text-lg text-gray-300 leading-relaxed max-w-xl mx-auto md:mx-0 ">Currently diving into Generative AI with Python and building automation workflows to strengthen my technical toolkit and create efficient, intelligent solutions.</p>
         </motion.div>
 
-        {/* Image */}
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
