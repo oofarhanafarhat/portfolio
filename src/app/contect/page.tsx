@@ -49,7 +49,7 @@ const Contact = () => {
           </div>
             <div className="flex items-center gap-2">
     <FiPhone />
-    <span>+92 300 0812431 ,+92 03700019884</span> {/* <-- Update your number here */}
+    <span>+92 300 0812431 ,+92 0370 0019884</span> {/* <-- Update your number here */}
   </div>
         </div>
 
