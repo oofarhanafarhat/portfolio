@@ -16,6 +16,8 @@ import {
   SiTailwindcss,
   SiSanity,
   SiPostgresql,
+  SiPython,
+  SiOpenai,
 } from "react-icons/si";
 
 const skills = [
@@ -28,6 +30,8 @@ const skills = [
   { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
   { name: "Sanity", icon: <SiSanity className="text-red-400" /> },
   { name: "PostgreSQL", icon: <SiPostgresql className="text-sky-400" /> },
+  { name: "Python", icon: <SiPython className="text-yellow-300" /> },
+  { name: "Generative AI", icon: <SiOpenai className="text-green-300" /> },
   { name: "GitHub", icon: <FaGithub className="text-gray-400" /> },
 ];
 
