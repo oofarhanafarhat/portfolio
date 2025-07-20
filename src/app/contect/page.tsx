@@ -47,10 +47,7 @@ const Contact = () => {
               LinkedIn
             </Link>
           </div>
-            <div className="flex items-center gap-2">
-    <FiPhone />
-    <span>+92 300 0812431 ,+92 0370 0019884</span> {/* <-- Update your number here */}
-  </div>
+          
         </div>
 
         {/* Contact Form */}
@@ -107,6 +104,7 @@ const Contact = () => {
           </button>
         </motion.form>
       </div>
+     
     </section>
   );
 };
