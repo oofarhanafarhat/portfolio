@@ -19,32 +19,15 @@ const Hero = () => {
           Hi, I&apos;m Farhana Farhat
         </motion.h1>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: [0, 1, 0] }}
-          transition={{
-            duration: 6,
-            repeat: Infinity,
-            repeatDelay: 1,
-          }}
-          className="mt-4 text-lg text-gray-300"
-        >
-          A passionate Full Stack Developer specialized in Next.js and Tailwind CSS. I craft modern responsive websites.
-        </motion.p>
+      
+         <p className="py-3 text-xl font-normal font-sans ">A passionate Full Stack Developer specialized in Next.js and Tailwind CSS. I craft modern responsive websites.</p> 
+      
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: [0, 1, 0] }}
-          transition={{
-            duration: 6,
-            repeat: Infinity,
-            repeatDelay: 1,
-            delay: 3,
-          }}
-          className="mt-4 text-lg text-gray-300"
-        >
-          Currently diving into Generative AI with Python and building automation workflows to strengthen my technical toolkit and create efficient, intelligent solutions.
-        </motion.p>
+       
+         
+        
+         <p className="py-3 text-xl font-normal font-sans "> Currently diving into Generative AI with Python and building automation workflows to strengthen my technical toolkit and create efficient, intelligent solutions.</p>
+     
 
         <Link
           href="#contact"

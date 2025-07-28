@@ -72,7 +72,7 @@ const Projects = () => {
     href={item.vercel}
     target="_blank"
     rel="noopener noreferrer"
-    className="mt-auto inline-block px-6 bg-fuchsia-600 text-white text-sm shadow-md hover:bg-fuchsia-800 font-semibold py-2 rounded-lg transition duration-300"
+    className=" justify-center mt-auto  px-6 bg-fuchsia-600 text-white text-sm shadow-md hover:bg-fuchsia-800 font-semibold py-2 rounded-lg transition duration-300 text-center items-center"
   >
     View Live
   </Link>

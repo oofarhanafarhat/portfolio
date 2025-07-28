@@ -11,14 +11,15 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navLinks = [
-    { name: "About", href: "/about" },
     { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+
     { name: "Projects", href: "/projects" },
     { name: "Contact", href: "/contect" },
   ];
 
   return (
-    <nav className="bg-gray-900 text-white px-6 py-4 shadow-md fixed top-0 w-full z-50">
+    <nav className="bg-gray-900 text-white px-6 py-4 shadow-md  top-0 w-full z-50 my-8">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">Farhana Farhat</h1>
 
